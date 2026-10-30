@@ -3,16 +3,16 @@ Secure online pizza ordering web app built with PHP and MySQL for ICT2213(3) at 
 ## Team
 | Member | Student ID | GitHub username | Main area |
 |---|---|---|---|
-| Bundhoo Mohamed Zubair | 2514768 | [username] | Registration, login, sessions, access control |
-| Shibnauth Dishav | 2516105 | [username] | Menu, search and filter |
-| Boodhun Bibi Zahrah | 2516012 | [username] | Pizza customiser and cart |
-| Muhun Sarveshsing | 2514878 | [username] | Checkout, payment, confirmation |
-| Rajoo Yashveer | 2514771 | [username] | Order tracking, reviews, staff dashboard |
-| Akbur Bibi Zakiyya | 2514729 | [username] | Admin menu management, noindex / robots.txt |
+| Bundhoo Mohamed Zubair | 2514768 | | Registration, login, sessions, access control |
+| Shibnauth Dishav | 2516105 | | Menu, search and filter |
+| Boodhun Bibi Zahrah | 2516012 | | Pizza customiser and cart |
+| Muhun Sarveshsing | 2514878 | | Checkout, payment, confirmation |
+| Rajoo Yashveer | 2514771 | | Order tracking, reviews, staff dashboard |
+| Akbur Bibi Zakiyya | 2514729 | | Admin menu management, noindex / robots.txt |
 
 ## Links
 - Figma design: https://www.figma.com/design/t0aryoA3yY1AcqA8pw3hmX/Pizzasoso?node-id=2-27&t=SoJWSQFxUNR4B9q2-1
-- Project video and slides: [Google Drive link]
+- Project video and slides: 
   
 ## Technology
 HTML5, CSS, JavaScript, PHP 8 (PDO) and MySQL/MariaDB, run locally with XAMPP.
