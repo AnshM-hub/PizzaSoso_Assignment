@@ -1,7 +1,7 @@
 # PizzaSoso_Assignment
 Online pizza ordering web app built with PHP and MySQL for ICT2213(3) at the University of Mauritius.
 ## Team
-| Member | Student ID || Main area |
+| Member | Student ID | Main area |
 |---|---|---|---|
 | Bundhoo Mohamed Zubair | 2514768 | Registration, login, sessions, access control |
 | Shibnauth Dishav | 2516105 | Menu, search and filter |
