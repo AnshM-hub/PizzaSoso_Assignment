@@ -1,14 +1,14 @@
 # PizzaSoso_Assignment
-Secure online pizza ordering web app built with PHP and MySQL for ICT2213(3) at the University of Mauritius.
+Online pizza ordering web app built with PHP and MySQL for ICT2213(3) at the University of Mauritius.
 ## Team
 | Member | Student ID || Main area |
 |---|---|---|---|
-| Bundhoo Mohamed Zubair | 2514768 | | Registration, login, sessions, access control |
-| Shibnauth Dishav | 2516105 | | Menu, search and filter |
-| Boodhun Bibi Zahrah | 2516012 | | Pizza customiser and cart |
-| Muhun Sarveshsing | 2514878 | | Checkout, payment, confirmation |
-| Rajoo Yashveer | 2514771 | | Order tracking, reviews, staff dashboard |
-| Akbur Bibi Zakiyya | 2514729 | | Admin menu management, noindex / robots.txt |
+| Bundhoo Mohamed Zubair | 2514768 | Registration, login, sessions, access control |
+| Shibnauth Dishav | 2516105 | Menu, search and filter |
+| Boodhun Bibi Zahrah | 2516012 | Pizza customiser and cart |
+| Muhun Sarveshsing | 2514878 | Checkout, payment, confirmation |
+| Rajoo Yashveer | 2514771 | Order tracking, reviews, staff dashboard |
+| Akbur Bibi Zakiyya | 2514729 | Admin menu management, noindex / robots.txt |
 
 ## Links
 - Figma design: https://www.figma.com/design/t0aryoA3yY1AcqA8pw3hmX/Pizzasoso?node-id=2-27&t=SoJWSQFxUNR4B9q2-1
@@ -16,49 +16,6 @@ Secure online pizza ordering web app built with PHP and MySQL for ICT2213(3) at 
   
 ## Technology
 HTML5, CSS, JavaScript, PHP 8 (PDO) and MySQL/MariaDB, run locally with XAMPP.
-
-## How to run the project
-1. **Install XAMPP** (PHP 8.x and MariaDB) and start **Apache** and **MySQL** in the control panel.
-2. **Clone the repository** into the XAMPP web folder. The folder must be called `pizza-soso`:
-   ```
-   cd C:\xampp\htdocs
-   git clone https://github.com/[team-leader]/PizzaSoso_Assignment.git pizza-soso
-   ```
-3. **Create the database.** Open http://localhost/phpmyadmin, create a database named
-   `pizza_ordering_db`, then use **Import** to load `database/pizza_ordering_db.sql`.
-4. **Add your database settings.** Copy `config/db.example.php` to `config/db.php` and edit the
-   username and password if yours are different. `db.php` is ignored by Git on purpose.
-5. **Open the site:** http://localhost/pizza-soso/
-
-If your folder has a different name, change `BASE_URL` in `includes/functions.php`.
-
-## Sample data (optional)
-The SQL file creates empty tables, so the menu is empty at first. Run this in phpMyAdmin
-(SQL tab) to add a few pizzas and toppings:
-
-```sql
-INSERT INTO pizza (name, description, category, base_price, image_url) VALUES
-  ('Margherita', 'Mozzarella and tomato sauce', 'Classic', 250.00, NULL),
-  ('Pepperoni', 'Pepperoni and mozzarella', 'Meat', 320.00, NULL),
-  ('Veggie Supreme', 'Peppers, onions, olives and mushrooms', 'Vegetarian', 300.00, NULL);
-INSERT INTO topping (name, price) VALUES
-  ('Extra cheese', 30.00), ('Mushrooms', 25.00), ('Olives', 25.00), ('Pepperoni', 40.00);
-```
-
-## Test accounts
-Registration always creates a **Customer**. To create Staff and Admin accounts, register
-normally, then change the role in phpMyAdmin:
-
-```sql
-UPDATE `user` SET role = 'Admin' WHERE email = 'your-email@example.com';
--- roles used by the code: 'Customer', 'Staff', 'Admin'
-```
-
-| Role | Email | Password |
-|---|---|---|
-| Customer | [fill in] | [fill in] |
-| Staff | [fill in] | [fill in] |
-| Admin | [fill in] | [fill in] |
 
 ## Folder structure
 ```
