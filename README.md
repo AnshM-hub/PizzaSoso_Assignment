@@ -12,7 +12,6 @@ Online pizza ordering web app built with PHP and MySQL for ICT2213(3) at the Uni
 
 ## Links
 - Figma design: https://www.figma.com/design/t0aryoA3yY1AcqA8pw3hmX/Pizzasoso?node-id=2-27&t=SoJWSQFxUNR4B9q2-1
-- Project video and slides: 
   
 ## Technology
 HTML5, CSS, JavaScript, PHP 8 (PDO) and MySQL/MariaDB, run locally with XAMPP.
